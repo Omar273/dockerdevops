@@ -1,14 +1,14 @@
 name: CI/CD Pipeline
 
 on:
-  push:
+  push:  
     branches: [ main ]
-  pull_request:
+  pull_request: 
     branches: [ main ]
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
     - uses: actions/checkout@v3
     - name: Set up PHP
