@@ -1,0 +1,15 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHP
+*.log
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
